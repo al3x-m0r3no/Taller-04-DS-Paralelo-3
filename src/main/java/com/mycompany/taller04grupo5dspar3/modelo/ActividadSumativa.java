@@ -4,10 +4,6 @@
  */
 package com.mycompany.taller04grupo5dspar3.modelo;
 
-/**
- *
- * @author CltControl
- */
 public class ActividadSumativa {
     
 }
