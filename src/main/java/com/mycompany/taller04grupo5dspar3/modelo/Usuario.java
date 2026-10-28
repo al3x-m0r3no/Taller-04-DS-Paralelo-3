@@ -4,10 +4,20 @@
  */
 package com.mycompany.taller04grupo5dspar3.modelo;
 
-/**
- *
- * @author CltControl
- */
-public class Usuario {
-    
+
+// Clase base Usuario
+public abstract class Usuario {
+    protected String usuario;
+    protected String contrasena;
+    protected String nombre;
+    protected String apellido;
+
+    protected boolean login() {
+        return true;
+    }
+
+    protected boolean logout() {
+        return true;
+    }
 }
+

@@ -9,5 +9,7 @@ package com.mycompany.taller04grupo5dspar3.modelo;
  * @author CltControl
  */
 public class Foro {
-    
+    private String id;
+    private String tematica;
+    private int numeroDeComentarios;
 }

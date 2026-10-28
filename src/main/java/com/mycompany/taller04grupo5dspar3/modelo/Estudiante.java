@@ -8,6 +8,13 @@ package com.mycompany.taller04grupo5dspar3.modelo;
  *
  * @author CltControl
  */
-public class Estudiante {
-    
+public class Estudiante extends PersonalAcademico {
+
+    public void solicitarInscripcionCurso(Curso curso) {
+   
+    }
+
+    public void realizarActividadSumativa(Curso curso, ActividadSumativa actividadSumativa) {
+      
+    }
 }

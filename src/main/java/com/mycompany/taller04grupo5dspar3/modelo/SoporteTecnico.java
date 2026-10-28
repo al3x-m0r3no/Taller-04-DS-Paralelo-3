@@ -8,6 +8,17 @@ package com.mycompany.taller04grupo5dspar3.modelo;
  *
  * @author CltControl
  */
-public class SoporteTecnico {
+public class SoporteTecnico extends Usuario {
+
+    public void brindarAsistencia(Usuario usuario) {
     
+    }
+
+    public void resolverProblemaTecnico(Usuario usuario) {
+      
+    }
+
+    public void derivarProblemaDeGestion(Administrador administrador) {
+    
+    }
 }
